@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/shalabh.yadu/webapplication-doc/mlflow_app/winequality/mlruns/0/ab464691814e48c6b38070b1e8c9f465/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: ab464691814e48c6b38070b1e8c9f465
+run_uuid: ab464691814e48c6b38070b1e8c9f465
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1586312957108
+status: 1
+tags: []
+user_id: shalabh.yadu
