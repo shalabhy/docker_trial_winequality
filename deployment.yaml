@@ -15,7 +15,7 @@ spec:
       containers:
       - name: model-api3
         imagePullPolicy: Always
-        image: k8spipeline.azurecr.io/winequality:10
+        image: k8spipeline.azurecr.io/winequality:11
         command: ["python",  "deploy_mlflow.py"]
         ports:
         - containerPort: 5001
