@@ -77,7 +77,7 @@ mlflow.sklearn.log_model(lr, "model")
 
 try:
     checking = pd.read_csv(r'C:\Users\shalabh.yadu\webapplication-doc\check.csv')
-    stop()
+    exit()
 except:
     pass
 
