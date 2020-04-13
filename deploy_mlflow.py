@@ -75,11 +75,8 @@ mlflow.log_metric("mae", mae)
 
 mlflow.sklearn.log_model(lr, "model")
 
-try:
-    checking = pd.read_csv(r'C:\Users\shalabh.yadu\webapplication-doc\check.csv')
+if os.getcwd() == 'C:\Program Files (x86)\Jenkins\workspace\K8S-version3':
     exit()
-except:
-    pass
 
 app = Flask(__name__)
 
